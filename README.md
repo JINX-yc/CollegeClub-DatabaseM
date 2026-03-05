@@ -18,10 +18,26 @@ The System consists of three tables:
 - Normalization upto Third Normal Form (3NF)
 
 ## Task 1 – Secure Data Exchange
-This folder contains diagrams illustrating how encoding methods such as Base64 work with protocols like HTTPS and TLS during secure data transmission.
+The task explores encoding techniques such as Base64, ASCII, URL encoding, and hexadecimal encoding, and explains how these formats are used during data transmission. It also examines how protocols such as HTTPS, TLS, and SMTP enable secure communication between systems.
 
 ## Task 2 – Computational Problem Solving
-This section demonstrates the seating arrangement problem using brute force and heuristic approaches. Supporting diagrams illustrate how the problem can be solved efficiently.
+This section analyzes a classroom seating arrangement problem using concepts from computational complexity and algorithm design.
+
+The problem involves arranging students in a way that prevents friends or students from the same city from sitting next to each other. Two approaches are explored:
+
+Brute Force Approach, where every possible seating arrangement is generated and tested.
+
+Heuristic Approach, where a smarter strategy is used to reduce the number of arrangements that need to be checked.
 
 ## Task 3 – Database Normalization
-This folder contains SQL scripts and the ER diagram for the College Club Membership database. The database was normalized up to Third Normal Form (3NF) and includes example queries using JOIN operations.
+This section demonstrates the design of a relational database for managing college club memberships.
+The database was normalized up to Third Normal Form (3NF) to remove redundancy and improve data integrity. The system includes three main entities:
+- Student
+- Club
+- Membership
+
+The SQL scripts provided demonstrate:
+- Table creation with primary and foreign keys
+- Data insertion
+- Basic data retrieval queries
+- JOIN operations to combine related data across tables
