@@ -15,4 +15,4 @@ The System consists of three tables:
 ## Features
 - INSERT and SELECT operations
 - JOIN queries to combine data across tables
-- NOrmalization upto Third Normal Form (3NF)
+- Normalization upto Third Normal Form (3NF)
